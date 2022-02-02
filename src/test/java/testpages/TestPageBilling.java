@@ -25,7 +25,7 @@ public class TestPageBilling extends BaseClass {
 	@MyAnnotations(category= {}, authors= {})    
 	@Test
 	public void testBillDetails() {
-		
+		System.out.println("hihih");
 		String id = UUID.randomUUID().toString();
 		System.out.println(id);
 		utilities.Listeners.setDriver(driver);
